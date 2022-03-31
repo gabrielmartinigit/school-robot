@@ -6,6 +6,13 @@
   <description>Robomaker sample for Robomaker book</description>
   <maintainer email="martinig@amazon.com">martinig</maintainer>
   <license>MIT-LICENSE</license>
+  
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  
+  <exec_depend>gazebo</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
